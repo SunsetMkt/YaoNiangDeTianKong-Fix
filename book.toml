@@ -4,5 +4,6 @@ authors = ["乱世银娘"]
 language = "zh-hans"
 [output.html]
 no-section-label = true
+git-repository-url = "https://github.com/yndtk/YaoNiangDeTianKong-Fix"
 [output.html.fold]
 enable = true
