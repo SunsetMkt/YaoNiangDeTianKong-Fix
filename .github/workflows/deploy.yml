@@ -7,16 +7,17 @@ on:
 permissions:
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.0
       - name: Download ebook-convert
@@ -38,15 +39,6 @@ jobs:
         with:
           name: ePub
           path: ./药娘的天空.epub
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
       - name: Upload Pages content
         uses: actions/upload-pages-artifact@v2
         with:
