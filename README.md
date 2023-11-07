@@ -1,5 +1,6 @@
 # 《药娘的天空》精修版
-<h2>作者：乱世银娘</h2>
+作者：乱世银娘
+
 小说原文已被各大小说平台下架，且内容存在部分错误，影响阅读体验。本项目旨在“修复”此小说。
 # 阅读方式
 [在线阅读](https://yndtk.github.io/YaoNiangDeTianKong-Fix/index.html)（部署在 GitHub Pages）
