@@ -1,0 +1,8 @@
+[book]
+title = "药娘的天空"
+authors = ["乱世银娘"]
+language = "zh-hans"
+[output.html]
+no-section-label = true
+[output.html.fold]
+enable = true
