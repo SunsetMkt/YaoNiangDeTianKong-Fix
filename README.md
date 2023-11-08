@@ -6,7 +6,7 @@
 个人力量有限，请大家积极通过 GitHub Issues 和 Pull Requests 提出修改建议。
 
 # 阅读方式
-- [x] [在线阅读](https://yndtk.github.io/YaoNiangDeTianKong-Fix/index.html)
+- [x] [在线阅读](https://yndtk.github.io/YaoNiangDeTianKong-Fix)
 - [ ] ePub
 
 # 部署编辑环境
