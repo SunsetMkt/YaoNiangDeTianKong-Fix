@@ -24,7 +24,7 @@ git clone https://github.com/yndtk/YaoNiangDeTianKong-Fix.git
 
 # 修改注意事项
 - 请使用全角标点。
-- 请遵守[盘古之白](https://github.com/vinta/pangu.js)，AutoCorrect 扩展会自动纠正。如果遇到专有名词被错误的纠正，请不要禁用 AutoCorrect，而是编辑```.autocorrectrc```文件添加对应的规则。
+- 请遵守[盘古之白](https://github.com/vinta/pangu.js)，AutoCorrect 扩展会自动纠正。如果遇到专有名词被错误的纠正，请不要禁用 AutoCorrect，应该编辑```.autocorrectrc```文件添加对应的规则。
 - 请严格区分大小写，尤其是专有名词。
 
 # 许可协议
