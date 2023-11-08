@@ -3,7 +3,7 @@ title = "药娘的天空"
 authors = ["乱世银娘"]
 language = "zh-hans"
 [output.html]
-additional-js = ["scripts/elasticlunr.js", "scripts/fzf.umd.js"]
+additional-js = ["src/scripts/elasticlunr.js", "src/scripts/fzf.umd.js"]
 no-section-label = true
 git-repository-url = "https://github.com/yndtk/YaoNiangDeTianKong-Fix"
 edit-url-template = "https://github.com/yndtk/YaoNiangDeTianKong-Fix/edit/main/{path}"
