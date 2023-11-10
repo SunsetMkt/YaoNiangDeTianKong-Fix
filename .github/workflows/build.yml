@@ -18,6 +18,8 @@ jobs:
         uses: peaceiris/actions-mdbook@v1.2.0
         with:
           mdbook-version: "latest"
+      - name: Setup mdBook-ePub
+        run: cargo install mdbook-epub
       - name: Build
         run: mdbook build
   upload:
@@ -34,12 +36,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-    - name: Setup Pages
-      uses: actions/configure-pages@v3
-    - name: Upload Pages artifact
-      uses: actions/upload-pages-artifact@v2
-      with:
-        path: "book/html/"
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: "book/html/"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
