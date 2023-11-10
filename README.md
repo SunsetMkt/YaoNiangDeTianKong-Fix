@@ -5,7 +5,7 @@
 
 个人力量有限，请大家积极通过 GitHub Issues 和 Pull Requests 提出修改建议。
 
-本项目使用 [mdBook](https://github.com/rust-lang/mdBook) 构建。
+本项目使用 [Quarto](https://quarto.org) 构建。
 
 # 阅读方式
 - [x] [在线阅读](https://yndtk.github.io/YaoNiangDeTianKong-Fix)
@@ -13,9 +13,11 @@
 
 # 部署编辑环境
 - 安装 [Visual Studio Code](https://code.visualstudio.com)。
+- 安装 [Quarto](https://quarto.org)。
 - 安装 [AutoCorrect](https://github.com/huacnlee/autocorrect)。
+- 安装 Visual Studio Code 扩展 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)（你也可以选择安装你喜欢的 Markdown 扩展）。
+- 安装 Visual Studio Code 扩展 [Quarto](https://marketplace.visualstudio.com/items?itemName=quarto.quarto)。
 - 安装 Visual Studio Code 扩展 [AutoCorrect](https://marketplace.visualstudio.com/items?itemName=huacnlee.autocorrect)。
-- 安装 Visual Studio Code 扩展 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)（可选，你也可以选择安装你喜欢的 Markdown 扩展）。
 - 克隆本项目仓库至本地。
 ```shell
 git clone https://github.com/yndtk/YaoNiangDeTianKong-Fix.git
