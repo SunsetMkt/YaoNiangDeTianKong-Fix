@@ -8,6 +8,8 @@ permissions:
   pages: write
   id-token: write
 
+concurrency: 1
+
 jobs:
   build:
     runs-on: ubuntu-latest
