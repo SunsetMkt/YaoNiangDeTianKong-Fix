@@ -17,16 +17,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1.2.0
+        with:
+          mdbook-version: "latest"
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build
-        run: quarto render -t html
+        run: mdbook build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "_book/"
+          path: "book/"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2

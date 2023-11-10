@@ -1,0 +1,13 @@
+[book]
+title = "药娘的天空"
+authors = ["乱世银娘"]
+language = "zh-hans"
+[output.html]
+additional-css = ["src/styles/text.css","src/styles/title.css"]
+additional-js = ["src/scripts/elasticlunr.js", "src/scripts/fzf.umd.js"]
+no-section-label = true
+git-repository-url = "https://github.com/yndtk/YaoNiangDeTianKong-Fix"
+edit-url-template = "https://github.com/yndtk/YaoNiangDeTianKong-Fix/edit/main/{path}"
+site-url = "/YaoNiangDeTianKong-Fix/"
+[output.html.fold]
+enable = true
