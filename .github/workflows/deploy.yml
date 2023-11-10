@@ -22,7 +22,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build
-        run: quarto render -t HTML
+        run: quarto render -t html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
