@@ -11,7 +11,7 @@
 # 阅读方式
 
 - [x] [在线阅读](https://yndtk.github.io/YaoNiangDeTianKong-Fix)
-- [ ] ePub
+- [x] ePub（请前往 [Actions](https://github.com/yndtk/YaoNiangDeTianKong-Fix/actions) 页面选择最新的构建结果下载）
 
 # 部署编辑环境
 

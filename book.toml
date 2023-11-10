@@ -3,7 +3,8 @@ title = "药娘的天空"
 authors = ["乱世银娘"]
 language = "zh-hans"
 [output.html]
-additional-css = ["src/styles/text.css","src/styles/title.css"]
+curly-quotes = true
+additional-css = ["src/styles/text.css", "src/styles/title.css"]
 additional-js = ["src/scripts/elasticlunr.js", "src/scripts/fzf.umd.js"]
 no-section-label = true
 git-repository-url = "https://github.com/yndtk/YaoNiangDeTianKong-Fix"
@@ -13,3 +14,9 @@ site-url = "/YaoNiangDeTianKong-Fix/"
 enable = true
 [output.html.search]
 limit-results = 100
+[output.epub]
+additional-css = ["src/styles/text.css", "src/styles/title-epub.css"]
+use-default-css = false
+cover-image = "images/cover.jpg"
+no-section-label = true
+curly-quotes = true
