@@ -10,6 +10,8 @@ no-section-label = true
 git-repository-url = "https://github.com/yndtk/YaoNiangDeTianKong-Fix"
 edit-url-template = "https://github.com/yndtk/YaoNiangDeTianKong-Fix/edit/main/{path}"
 site-url = "/YaoNiangDeTianKong-Fix/"
+[output.html.print]
+enable = false
 [output.html.fold]
 enable = true
 [output.html.search]
