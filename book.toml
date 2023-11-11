@@ -17,7 +17,7 @@ enable = true
 [output.html.search]
 limit-results = 100
 [output.epub]
-additional-css = ["src/styles/text.css", "src/styles/title-epub.css"]
+additional-css = ["src/styles/text.css", "src/styles/title.css"]
 use-default-css = false
 cover-image = "images/cover.jpg"
 no-section-label = true
