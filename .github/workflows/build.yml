@@ -22,7 +22,7 @@ jobs:
         with:
           mdbook-version: "latest"
       - name: Setup mdBook-ePub
-        run: cargo install mdbook-epub
+        run: cargo install --git https://github.com/Michael-F-Bryan/mdbook-epub
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build
