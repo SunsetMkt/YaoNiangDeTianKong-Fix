@@ -26,7 +26,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Add version info
-        run: echo "\n\n## 版本信息\n\n\`\`\`提交 SHA：${{ github.sha }}\n构建时间：$(date)\`\`\`" >> src/introduction.md
+        run: echo \n\n## 版本信息\n\n\`\`\`提交 SHA：${{ github.sha }}\n构建时间：$(date)\`\`\` >> src/introduction.md
       - name: Build
         run: mdbook build
       - name: Upload ePub artifact
