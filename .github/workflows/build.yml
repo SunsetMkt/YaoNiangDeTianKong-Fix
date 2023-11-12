@@ -10,6 +10,9 @@ permissions:
 
 jobs:
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,15 +25,10 @@ jobs:
         run: cargo install --git https://github.com/Michael-F-Bryan/mdbook-epub
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Add version info
+        run: echo "\n\n## 版本信息\n\n```提交 SHA：${{ github.sha }}\n构建时间：$(date)```"
       - name: Build
         run: mdbook build
-  upload:
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
       - name: Upload ePub artifact
         uses: actions/upload-artifact@v3.1.3
         with:
