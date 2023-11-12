@@ -21,7 +21,7 @@ jobs:
         uses: peaceiris/actions-mdbook@v1.2.0
         with:
           mdbook-version: "latest"
-      - name: Setup mdBook-ePub
+      - name: Setup mdbook-epub
         run: cargo install --git https://github.com/Michael-F-Bryan/mdbook-epub
       - name: Setup Pages
         uses: actions/configure-pages@v3
