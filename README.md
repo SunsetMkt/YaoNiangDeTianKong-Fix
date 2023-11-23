@@ -1,3 +1,7 @@
+# 诚聘维护者！！
+
+孩子太废物了，一个人太弱了，根本改不过来，求求各位大佬来帮帮孩子叭！！QAQ
+
 # 《药娘的天空》精修版
 
 作者：乱世银娘
@@ -16,7 +20,6 @@
 # 部署编辑环境
 
 - 安装 [Visual Studio Code](https://code.visualstudio.com)。
-- 安装 [AutoCorrect](https://github.com/huacnlee/autocorrect)。
 - 安装 Visual Studio Code 扩展 [AutoCorrect](https://marketplace.visualstudio.com/items?itemName=huacnlee.autocorrect)。
 - 安装 Visual Studio Code 扩展 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)（可选，你也可以选择安装你喜欢的 Markdown 扩展）。
 - 克隆本项目仓库至本地。
