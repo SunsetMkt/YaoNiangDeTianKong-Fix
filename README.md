@@ -25,15 +25,17 @@
 - 安装 Visual Studio Code 扩展 [AutoCorrect](https://marketplace.visualstudio.com/items?itemName=huacnlee.autocorrect)。
 - 安装 Visual Studio Code 扩展 [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)（可选，你也可以选择安装你喜欢的 Markdown 扩展）。
 - 克隆本项目仓库至本地。
+
 ```shell
 git clone https://github.com/yndtk/YaoNiangDeTianKong-Fix.git
 ```
+
 - 打开本地的仓库文件夹为 Visual Studio Code 工作区。
 
 # 修改注意事项
 
 - 请使用全角标点。
-- 请遵守[盘古之白](https://github.com/vinta/pangu.js)，AutoCorrect 扩展会自动纠正。如果遇到专有名词被错误的纠正，请不要禁用 AutoCorrect，应该编辑```.autocorrectrc```文件添加对应的规则。
+- 请遵守[盘古之白](https://github.com/vinta/pangu.js)，AutoCorrect 扩展会自动纠正。如果遇到专有名词被错误的纠正，请不要禁用 AutoCorrect，应该编辑`.autocorrectrc`文件添加对应的规则。
 - 请严格区分大小写，尤其是专有名词。
 
 # 许可协议
