@@ -8,7 +8,8 @@
 
 本项目使用 [mdBook](https://github.com/rust-lang/mdBook) 构建，ePub 版本使用 [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) 构建。
 
-[项目仓库](https://github.com/yndtk/YaoNiangDeTianKong-Fix)
+- [项目仓库](https://github.com/yndtk/YaoNiangDeTianKong-Fix)
+- [镜像仓库](https://git.transgirl.cafe/yndtk/YaoNiangDeTianKong-Fix)（感谢 [Trans Girl Café](https://transgirl.cafe/)）
 
 ## 许可协议
 
