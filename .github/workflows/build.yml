@@ -36,10 +36,6 @@ jobs:
         with:
           name: ePub
           path: ./book/epub/*.epub
-      - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
@@ -47,3 +43,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v4
+        with:
+          working_directory: ./book/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
