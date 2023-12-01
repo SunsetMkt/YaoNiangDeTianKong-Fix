@@ -10,8 +10,6 @@ permissions:
 
 jobs:
   build:
-    env:
-      TIME: "$(TZ=Asia/Shanghai date -Iseconds)"
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -28,20 +26,22 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Add version info
-        run: echo -e "\n\n## 版本信息\n\n\`\`\`\n提交 SHA：${{ github.sha }}\n构建时间：${{ env.TIME }}\n\`\`\`" >> src/text/introduction.md
+        run: |
+          echo -e "TIME=$(TZ=Asia/Shanghai date -Iseconds)" >> "$GITHUB_ENV"
+          echo "\n\n## 版本信息\n\n\`\`\`\n提交 SHA：$GITHUB_SHA\n构建时间：$TIME\n\`\`\`" >> src/text/introduction.md
       - name: Build
         run: |
           mdbook build
-          mv ./book/epub/*.epub ./book/epub/药娘的天空-${{ env.TIME }}-${{ github.sha }}.epub
+          mv ./book/epub/*.epub ./book/epub/药娘的天空-$TIME-$GITHUB_SHA.epub
       - name: Upload ePub artifact
         uses: actions/upload-artifact@v3.1.3
         with:
           name: ePub
-          path: "./book/epub/*.epub"
+          path: ./book/epub/*.epub
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: "./book/html/"
+          path: ./book/html/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
