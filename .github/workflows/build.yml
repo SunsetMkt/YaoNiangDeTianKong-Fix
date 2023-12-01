@@ -33,15 +33,16 @@ jobs:
         run: |
           mdbook build
           mv ./book/epub/*.epub ./book/epub/药娘的天空-$TIME-$GITHUB_SHA.epub
+          ls ./book/epub/
       - name: Upload ePub artifact
         uses: actions/upload-artifact@v3.1.3
         with:
           name: ePub
-          path: book/epub/*.epub
+          path: ./book/epub/*.epub
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: book/html/
+          path: ./book/html/
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
