@@ -10,14 +10,14 @@
 
 个人力量有限，请大家积极通过 GitHub Issues 和 Pull Requests 提出修改建议。
 
-本项目使用 [mdBook](https://github.com/rust-lang/mdBook) 构建，ePub 版本使用 [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) 构建。
+本项目使用 [mdBook](https://github.com/rust-lang/mdBook) 构建，EPUB 版本使用 [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) 构建。
 
 - [镜像仓库](https://git.transgirl.cafe/yndtk/YaoNiangDeTianKong-Fix)（感谢 [Trans Girl Café](https://transgirl.cafe/)）
 
 # 阅读方式
 
 - [x] [在线阅读](https://yndtk.github.io/YaoNiangDeTianKong-Fix)
-- [x] ePub（请前往 [Actions](https://github.com/yndtk/YaoNiangDeTianKong-Fix/actions) 页面选择最新的构建结果下载）
+- [x] EPUB（请前往 [Actions](https://github.com/yndtk/YaoNiangDeTianKong-Fix/actions) 页面选择最新的构建结果下载）
 
 # 部署编辑环境
 
