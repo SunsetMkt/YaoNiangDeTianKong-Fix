@@ -18,6 +18,7 @@
 
 - [x] [在线阅读](https://yndtk.github.io/YaoNiangDeTianKong-Fix)
 - [x] EPUB（请前往 [Actions](https://github.com/yndtk/YaoNiangDeTianKong-Fix/actions) 页面选择最新的构建结果下载）
+- [ ] PDF
 
 # 部署编辑环境
 
@@ -36,7 +37,16 @@ git clone https://github.com/yndtk/YaoNiangDeTianKong-Fix.git
 
 - 请使用全角标点。
 - 请遵守[盘古之白](https://github.com/vinta/pangu.js)，AutoCorrect 扩展会自动纠正。如果遇到专有名词被错误的纠正，请不要禁用 AutoCorrect，应该编辑`.autocorrectrc`文件添加对应的规则。
-- 请严格区分大小写，尤其是专有名词。
+- 请严格区分英文大小写，尤其是专有名词。
+> 许多英文专有名词都具有两个写法：显示名称（“Display Name”）和别名（“Alias”）。
+> 
+> 其区别在于，显示名称侧重人类可读性，而别名侧重机器识别和唯一性。可以把显示名称比喻成 Android 应用程序在启动上显示名字，那么别名就是应用程序的包名。
+> 
+> 显示名称一般包含大小写和空格以及特殊字符，比如本自述文件中的“mdBook”（显示名称），其存储库的`Cargo.toml`中`name`的值为“mdbook”（别名）,可以看出其别名去掉了大小写的差别，而显示名称则保留。
+> 
+> 因此，在修改本项目时如果遇上英文专有名词，请使用其显示名称，而不是别名。如果真的没有显示名称，请使用其别名（如本自述文件中的“mdbook-epub”）。
+> 
+> 同时，英文专有名词的大小写应该参考其官方网站、文档、Wiki 等（如本自述文件中的“EPUB”，其更改过多次，最后参考 W3C 官方网站才改成了“EPUB”）。
 
 # 许可协议
 
