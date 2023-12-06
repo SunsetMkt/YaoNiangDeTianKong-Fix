@@ -4,6 +4,8 @@
 
 小说原文已被各大小说平台下架，且内容存在部分错误，影响阅读体验。本项目旨在“修复”此小说。
 
+> 由于本项目的上游是小说作者乱世银娘直接提供的原稿，绕过了小说平台的审查，本项目将是你可以在互联网上找到的最完整最完善版本的药空。
+
 个人力量有限，请大家积极通过 GitHub Issues 和 Pull Requests 提出修改建议。
 
 本项目使用 [mdBook](https://github.com/rust-lang/mdBook) 构建，ePub 版本使用 [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) 构建。
