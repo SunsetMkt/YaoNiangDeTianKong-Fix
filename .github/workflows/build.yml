@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@main
 
       - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@main
+        uses: peaceiris/actions-mdbook@v1
         with:
           mdbook-version: latest
 
