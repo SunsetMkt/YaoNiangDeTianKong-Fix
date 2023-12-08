@@ -1,6 +1,6 @@
 # 目录
 
-[简介](text/introduction.md)
+[简介](text/README.md)
 
 - [第一卷 · 朦胧的世界](text/1/0.md)
 
