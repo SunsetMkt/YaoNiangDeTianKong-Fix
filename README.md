@@ -8,7 +8,7 @@
 
 ## 项目宗旨
 
-原小说已被小说平台封杀，且由于小说平台的内容审查导致小说被和谐删减。本项目基于作者提供的未被和谐删减的[小说原稿](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Origin)，进行校对与修复工作，修复范围包括错别字和语法错误等。
+原小说已被小说平台封杀，且由于小说平台的内容审查导致小说被和谐删减。本项目基于作者提供的未被和谐删减的[小说原稿](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Origin)，进行校对与修复工作。
 
 ## 开始阅读
 
@@ -26,7 +26,7 @@
 
 编辑完成后请使用 [AutoCorrect](https://github.com/huacnlee/autocorrect) 检查纠正。
 
-> 如果 AutoCorrect 把专有名词纠正了，且这不是预期行为，请在 AutoCorrect 配置文件 `.autocorrectrc` 中添加对应规则，参考 AutoCorrect [自述文件](https://github.com/huacnlee/autocorrect#configuration)。
+> 如果 AutoCorrect 把专有名词纠正了，且这不是预期行为，请在 AutoCorrect 配置文件 `.autocorrectrc` 中添加对应规则，参考 AutoCorrect 自述文件 [Configuration](https://github.com/huacnlee/autocorrect#configuration) 部分。
 
 ### 注意事项
 
