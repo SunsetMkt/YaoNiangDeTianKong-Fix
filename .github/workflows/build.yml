@@ -35,7 +35,7 @@ jobs:
           git: https://github.com/Michael-F-Bryan/mdbook-epub
 
       - name: Add version info
-        run: echo -e "\n\n## 版本信息\n\n\`\`\`\n提交 SHA：$GITHUB_SHA\n构建时间：$(TZ=Asia/Shanghai date)\n\`\`\`" >> src/text/README.md
+        run: echo -e "\n\n## 版本信息\n\n\`\`\`\n提交 SHA：$GITHUB_SHA\n构建时间：$(TZ=Asia/Shanghai date -Iseconds)\n\`\`\`" >> src/text/README.md
 
       - name: Build
         run: |
