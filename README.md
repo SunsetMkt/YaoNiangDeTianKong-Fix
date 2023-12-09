@@ -16,7 +16,7 @@
 
 - [x] [EPUB](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix/actions)
 
-- [ ] [PDF]()
+- [ ] PDF
 
 ## 做出贡献
 
