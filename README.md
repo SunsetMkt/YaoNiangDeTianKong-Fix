@@ -10,6 +10,8 @@
 
 原小说已被小说平台封杀，且由于小说平台的内容审查导致小说被和谐删减。本项目基于作者提供的未被和谐删减的[小说原稿](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Origin)，进行校对与修复工作。
 
+欢迎任何人通过 Issues 或 Pull requests 提出修改建议！
+
 ## 开始阅读
 
 - [x] [Web](https://Zh40Le1ZOOB.github.io/YaoNiangDeTianKong-Fix)
