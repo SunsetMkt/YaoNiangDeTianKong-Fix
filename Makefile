@@ -1,6 +1,6 @@
 build_fzf:
 	git clone https://github.com/ajitid/fzf-for-js
-	cd fzf-for-js && npm install && npm run build
+	cd fzf-for-js && npm install && npm run build:modules
 
 build_book:
 	mdbook build
