@@ -20,6 +20,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
+      - name: Setup Node.js environment
+        uses: actions/setup-node@main
+        with:
+          node-version: latest
+
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
         with:
@@ -39,7 +44,7 @@ jobs:
 
       - name: Build
         run: |
-          mdbook build
+          make build
           mv ./book/epub/*.epub ./book/epub/药娘的天空-$GITHUB_SHA.epub
 
       - name: Upload Pages artifact
