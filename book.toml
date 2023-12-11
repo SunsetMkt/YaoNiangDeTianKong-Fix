@@ -5,7 +5,7 @@ language = "zh-CN"
 [output.html]
 curly-quotes = true
 additional-css = ["src/styles/text.css", "src/styles/title.css"]
-additional-js = ["fzf-for-js/dist/fzf.umd.js"]
+additional-js = ["src/scripts/elasticlunr.js", "src/scripts/fzf.umd.js"]
 no-section-label = true
 git-repository-url = "https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix"
 edit-url-template = "https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix/edit/main/{path}"
