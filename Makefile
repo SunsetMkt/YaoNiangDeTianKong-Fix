@@ -7,6 +7,5 @@ build_book:
 
 build:
 	wget -P scripts https://raw.githubusercontent.com/allfunc/docker-mdbook/main/mdbook-demo/assets/elasticlunr.js
-	build_fzf
-	cp fzf-for-js/dist/fzf.umd.js scripts
-	build_book
+	make build_fzf && cp fzf-for-js/dist/fzf.umd.js scripts
+	make build_book
