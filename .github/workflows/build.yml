@@ -20,18 +20,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Setup Node.js environment
-        uses: actions/setup-node@main
-        with:
-          node-version: latest
+#      - name: Setup Node.js environment
+#        uses: actions/setup-node@main
+#        with:
+#          node-version: latest
 
-      - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v1
-        with:
-          mdbook-version: latest
+#      - name: Setup mdBook
+#        uses: peaceiris/actions-mdbook@v1
+#        with:
+#          mdbook-version: latest
 
       - name: Setup Pages
         uses: actions/configure-pages@main
+
+      - name: Install mdBook from git
+        uses: baptiste0928/cargo-install@main
+        with:
+          crate: mdbook
+          git: https://github.com/Zh40Le1ZOOB/mdBook
 
       - name: Install mdbook-epub from git
         uses: baptiste0928/cargo-install@main
@@ -44,7 +50,7 @@ jobs:
 
       - name: Build
         run: |
-          make build
+          mdbook build
           mv ./book/epub/*.epub ./book/epub/药娘的天空-$GITHUB_SHA.epub
 
       - name: Upload Pages artifact
