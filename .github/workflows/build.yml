@@ -23,11 +23,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@main
 
-      - name: Setup Rust nightly
-        uses: dtolnay/rust-toolchain@master
-        with:
-          toolchain: nightly
-
       - name: Install mdBook from git
         uses: baptiste0928/cargo-install@main
         with:
