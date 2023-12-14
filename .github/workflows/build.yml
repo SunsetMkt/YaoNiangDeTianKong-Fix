@@ -33,14 +33,6 @@ jobs:
           crate: mdbook-epub
           git: https://github.com/Michael-F-Bryan/mdbook-epub
 
-      - name: Install mdbook-pdf
-        uses: baptiste0928/cargo-install@main
-        with:
-          crate: mdbook-pdf
-
-      - name: Setup Chrome
-        uses: browser-actions/setup-chrome@v1
-
       - name: Setup Pages
         uses: actions/configure-pages@main
 
@@ -51,7 +43,6 @@ jobs:
         run: |
           mdbook build
           mv ./book/epub/*.epub ./book/epub/药娘的天空-$GITHUB_SHA.epub
-          mv ./book/pdf/*.pdf ./book/pdf/药娘的天空-$GITHUB_SHA.pdf
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@main
@@ -67,9 +58,3 @@ jobs:
         with:
           name: EPUB
           path: ./book/epub/*.epub
-
-      - name: Upload PDF artifacts
-        uses: actions/upload-artifact@main
-        with:
-          name: PDF
-          path: ./book/pdf/*.pdf
