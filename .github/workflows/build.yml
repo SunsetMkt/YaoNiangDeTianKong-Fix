@@ -20,9 +20,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Setup Pages
-        uses: actions/configure-pages@main
-
       - name: Install mdBook from git
         uses: baptiste0928/cargo-install@main
         with:
@@ -36,6 +33,12 @@ jobs:
           crate: mdbook-epub
           git: https://github.com/Michael-F-Bryan/mdbook-epub
 
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@master
+
+      - name: Setup Pages
+        uses: actions/configure-pages@main
+
       - name: Add version info
         run: echo -e "\n\n## 版本信息\n\n\`\`\`\n提交 SHA：$GITHUB_SHA\n构建时间：$(TZ=Asia/Shanghai date -Iseconds)\n\`\`\`" >> src/text/README.md
 
@@ -43,6 +46,8 @@ jobs:
         run: |
           mdbook build
           mv ./book/epub/*.epub ./book/epub/药娘的天空-$GITHUB_SHA.epub
+          mv ./book/pdf/*.pdf ./book/pdf/药娘的天空-$GITHUB
+          _SHA.epub
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@main
@@ -53,8 +58,14 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@main
 
-      - name: Upload ePub artifact
+      - name: Upload EPUB Artifact
         uses: actions/upload-artifact@main
         with:
-          name: ePub
+          name: EPUB
           path: ./book/epub/*.epub
+
+      - name: Upload PDF Artifacts
+        uses: actions/upload-artifact@main
+        with:
+          name: PDF
+          path: ./book/pdf/*.pdf
