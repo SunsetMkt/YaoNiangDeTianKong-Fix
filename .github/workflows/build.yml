@@ -34,7 +34,7 @@ jobs:
           git: https://github.com/Michael-F-Bryan/mdbook-epub
 
       - name: Setup Chrome
-        uses: browser-actions/setup-chrome@master
+        uses: browser-actions/setup-chrome@v1
 
       - name: Setup Pages
         uses: actions/configure-pages@main
