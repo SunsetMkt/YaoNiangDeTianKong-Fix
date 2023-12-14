@@ -63,13 +63,13 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@main
 
-      - name: Upload EPUB Artifact
+      - name: Upload EPUB artifact
         uses: actions/upload-artifact@main
         with:
           name: EPUB
           path: ./book/epub/*.epub
 
-      - name: Upload PDF Artifacts
+      - name: Upload PDF artifacts
         uses: actions/upload-artifact@main
         with:
           name: PDF
