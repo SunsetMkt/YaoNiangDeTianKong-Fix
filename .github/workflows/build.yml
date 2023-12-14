@@ -20,18 +20,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@main
 
-      - name: Install mdBook from git
+      - name: Install mdBook
         uses: baptiste0928/cargo-install@main
         with:
           crate: mdbook
           git: https://github.com/Zh40Le1ZOOB/mdBook
           features: zh
 
-      - name: Install mdbook-epub from git
+      - name: Install mdbook-epub
         uses: baptiste0928/cargo-install@main
         with:
           crate: mdbook-epub
           git: https://github.com/Michael-F-Bryan/mdbook-epub
+
+      - name: Install mdbook-pdf
+        uses: baptiste0928/cargo-install@main
+        with:
+          crate: mdbook-pdf
 
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
