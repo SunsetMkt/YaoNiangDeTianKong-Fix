@@ -24,5 +24,3 @@ use-default-css = false
 cover-image = "images/cover.jpg"
 no-section-label = true
 curly-quotes = true
-
-[output.pdf]
