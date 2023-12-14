@@ -52,7 +52,7 @@ jobs:
           mdbook build
           mv ./book/epub/*.epub ./book/epub/药娘的天空-$GITHUB_SHA.epub
           mv ./book/pdf/*.pdf ./book/pdf/药娘的天空-$GITHUB
-          _SHA.epub
+          _SHA.pdf
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@main
