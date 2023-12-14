@@ -10,13 +10,13 @@
 
 原小说已被小说平台封杀，且由于小说平台的内容审查导致小说被和谐删减。本项目基于作者提供的未被和谐删减的[小说原稿](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Origin)，进行校对与修复工作。
 
-欢迎任何人通过 Issues 或 Pull requests 提出修改建议！
+欢迎通过 Issues 或 Pull requests 提出修改建议！
 
 ## 开始阅读
 
 - [x] [Web](https://Zh40Le1ZOOB.github.io/YaoNiangDeTianKong-Fix)
 
-> mdBook 本身不支持中文搜索，本项目使用了~~黑魔法~~使其**勉强支持**中文搜索（依然很糟糕 ~~依托答辩~~），因此如果你有更好的方法使 mdBook 支持中文搜索，欢迎提出讨论！:)
+> mdBook 本身不支持中文搜索，本项目使用了~~黑魔法~~使其*勉强支持*中文搜索（依然很糟糕 ~~依托答辩~~），因此如果你有更好的方法使 mdBook 支持中文搜索，欢迎提出讨论！:)
 
 - [x] [EPUB](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix/actions)
 
