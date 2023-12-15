@@ -24,8 +24,6 @@ jobs:
         uses: baptiste0928/cargo-install@main
         with:
           crate: mdbook
-          git: https://github.com/Zh40Le1ZOOB/mdBook
-          features: zh
 
       - name: Install mdbook-epub
         uses: baptiste0928/cargo-install@main

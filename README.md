@@ -16,13 +16,13 @@
 
 - [x] [Web](https://Zh40Le1ZOOB.github.io/YaoNiangDeTianKong-Fix)
 
-> mdBook 本身不支持中文搜索，本项目使用了~~黑魔法~~使其*勉强支持*中文搜索（依然很糟糕 ~~依托答辩~~），因此如果你有更好的方法使 mdBook 支持中文搜索，欢迎提出讨论！:)
+> mdBook 不支持中文搜索，如果你有使其支持中文搜索的办法，欢迎提出讨论。:)
 
 - [x] [EPUB](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix/actions)
 
 - [ ] PDF
 
-> 由于 mdbook-pdf 构建速度过慢（奇慢无比）且存在奇怪的问题，因此暂时不支持 PDF。如果你有任何构建 PDF 的好方法，欢迎提出讨论！:)
+> 由于 mdbook-pdf 构建速度过慢（奇慢无比）且存在奇怪的问题，因此暂时不支持 PDF。如果你有任何构建 PDF 的好方法，欢迎提出讨论。:)
 
 ## 做出贡献
 
@@ -32,9 +32,7 @@
 
 编辑完成后请使用 [AutoCorrect](https://github.com/huacnlee/autocorrect) 检查纠正。
 
-> 如果 AutoCorrect 把专有名词纠正了，且这不是预期行为，请在 AutoCorrect 配置文件 `.autocorrectrc` 中添加对应规则，参考 AutoCorrect 自述文件 [Configuration](https://github.com/huacnlee/autocorrect#configuration) 部分。
-
-~~不要尝试在你的机器上构建这座屎山~~，因为它使用了*黑魔法*。
+> 如果 AutoCorrect 纠正了专有名词，且这不是预期行为，请在 AutoCorrect 配置文件 `.autocorrectrc` 中添加对应规则，参考 AutoCorrect 自述文件 [Configuration](https://github.com/huacnlee/autocorrect#configuration) 部分。
 
 ### 注意事项
 
