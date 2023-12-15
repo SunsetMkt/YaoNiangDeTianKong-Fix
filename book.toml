@@ -5,13 +5,12 @@ language = "zh-CN"
 
 [output.html]
 curly-quotes = true
-additional-css = ["src/styles/text.css", "src/styles/title.css", "theme/navigation.css"]
+additional-css = ["styles/text.css", "styles/title.css", "theme/navigation.css"]
 no-section-label = true
 header-link = false
 git-repository-url = "https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix"
 edit-url-template = "https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix/edit/main/{path}"
 site-url = "/YaoNiangDeTianKong-Fix/"
-input-404 = "text/404.md"
 
 [output.html.fold]
 enable = true
@@ -20,7 +19,7 @@ enable = true
 limit-results = 1000
 
 [output.epub]
-additional-css = ["src/styles/text.css", "src/styles/title.css"]
+additional-css = ["styles/text.css", "styles/title.css"]
 use-default-css = false
 cover-image = "images/cover.jpg"
 no-section-label = true
