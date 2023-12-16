@@ -16,10 +16,12 @@
 
 ## 特别鸣谢
 
-- [乱世银娘](https://www.weibo.com/p/1005055513855401)
+- [乱世银娘](https://www.weibo.com/p/1005055513855401) 及全体支持此小 说的读者，没有你们就没有这部小说。
 
-- [mdBook](https://github.com/rust-lang/mdBook) 及其全体开发者
+- [mdBook](https://github.com/rust-lang/mdBook) 及其全体贡献者，mdBook 的高性能使其成为了此项目的唯一选择。
 
-- [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) 及其全体开发者
+- [mdbook-epub](https://github.com/Michael-F-Bryan/mdbook-epub) 及其全体贡献者，为 mdBook 提供了 EPUB 构建支持。
 
-- 本项目的全体开发者
+- [AutoCorrect](https://github.com/huacnlee/autocorrect) 及其全体贡献 者，拯救了本项目凌乱的文本。
+
+- 本项目的全体贡献者，感谢你们为本项目提供支持！
