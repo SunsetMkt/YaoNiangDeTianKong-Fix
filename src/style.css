@@ -1,0 +1,29 @@
+p > :not(.part-title) {
+        text-indent: 2em;
+}
+
+h1 {
+        text-align: center;
+}
+
+.title-box {
+        display: flex;
+        height: 90vh;
+        justify-content: center;
+}
+
+.part-title {
+        writing-mode: vertical-lr;
+}
+
+.first-title {
+	display: inline-block;
+	position: relative;
+        transform: translateY(-50%);
+}
+
+.last-title {
+	display: inline-block;
+	position: relative;
+        transform: translateY(50%);
+}
