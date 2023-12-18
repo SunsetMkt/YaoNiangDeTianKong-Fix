@@ -22,6 +22,10 @@ h1 {
         transform: translateY(-50%);
 }
 
+.dot {
+	display: inline-block;
+}
+
 .last-title {
 	display: inline-block;
 	position: relative;

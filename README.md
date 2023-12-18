@@ -20,6 +20,8 @@
 
 - [x] [EPUB](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix/actions)
 
+> 推荐使用 [Neat Reader ](https://www.neat-reader.com/)，兼容性较好，~~能够渲染本项目一些花里胡哨的样式表~~。
+
 - [ ] PDF
 
 > 由于 mdbook-pdf 构建速度过慢（奇慢无比）且存在奇怪的问题，因此暂时不支持 PDF。如果你有任何构建 PDF 的好方法，欢迎提出讨论。:)
