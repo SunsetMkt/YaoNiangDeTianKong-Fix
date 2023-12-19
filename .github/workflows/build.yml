@@ -18,22 +18,22 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v4
 
       - name: Install mdBook
-        uses: baptiste0928/cargo-install@main
+        uses: baptiste0928/cargo-install@v2
         with:
           crate: mdbook
           git: https://github.com/Zh40Le1ZOOB/mdBook
 
       - name: Install mdbook-epub
-        uses: baptiste0928/cargo-install@main
+        uses: baptiste0928/cargo-install@v2
         with:
           crate: mdbook-epub
           git: https://github.com/Michael-F-Bryan/mdbook-epub
 
       - name: Setup Pages
-        uses: actions/configure-pages@main
+        uses: actions/configure-pages@v4
 
       - name: Add version info
         run: echo -e "\n\n## 版本信息\n\n\`\`\`\n提交 SHA：$GITHUB_SHA\n构建时间：$(TZ=Asia/Shanghai date -Iseconds)\n\`\`\`" >> src/README.md
@@ -44,16 +44,16 @@ jobs:
           mv ./book/epub/*.epub ./book/epub/药娘的天空-$GITHUB_SHA.epub
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@main
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./book/html/
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@v3
 
       - name: Upload EPUB artifact
-        uses: actions/upload-artifact@main
+        uses: actions/upload-artifact@v4
         with:
           name: EPUB
           path: ./book/epub/*.epub
