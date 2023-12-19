@@ -2,6 +2,8 @@
 
 作者：乱世银娘
 
+> （仅限 Web）点击右上角按钮可切换全屏以获得最佳阅读体验（再次点击可退出），发现错误可直接点击旁边的编辑按钮修改并创建 Pull request。
+
 ## 项目地址
 
 [GitHub](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix)
