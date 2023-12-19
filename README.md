@@ -20,7 +20,7 @@
 
 - [x] [EPUB](https://github.com/Zh40Le1ZOOB/YaoNiangDeTianKong-Fix/actions)
 
-> 推荐使用 [Neat Reader ](https://www.neat-reader.com/)，兼容性较好，~~能够渲染本项目一些花里胡哨的样式表~~。
+> 大部分 EPUB 阅读器并不能渲染所有样式，因此不推荐使用 EPUB，使用 Web 可保持更新并获得最佳阅读体验。:)
 
 - [ ] PDF
 
