@@ -1,3 +1,6 @@
+p {
+	text-indent: 2em;
+}
 .part-title {
 	display: flex;
 	height: 80vh;
@@ -9,6 +12,7 @@
 .single-title {
 	display: inline-block;
 	position: relative;
+	text-indent: 0;
 	writing-mode: vertical-lr;
 }
 .first-title {
