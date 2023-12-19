@@ -1,29 +1,20 @@
-p > :not(.part-title) {
-        text-indent: 2em;
-}
-
-h1 {
-        text-align: center;
-}
-
-.title-box {
-        display: flex;
-        height: 80vh;
-        justify-content: center;
-}
-
 .part-title {
-        writing-mode: vertical-lr;
+	display: flex;
+	height: 80vh;
+	align-items: center;
+	justify-content: space-evenly;
 }
-
-.first-title {
+.first-title,
+.last-title,
+.single-title {
 	display: inline-block;
 	position: relative;
-        transform: translateY(-50%);
+	writing-mode: vertical-lr;
+}
+.first-title {
+	top: 10%;
 }
 
 .last-title {
-	display: inline-block;
-	position: relative;
-        transform: translateY(50%);
+	bottom: 10%;
 }
