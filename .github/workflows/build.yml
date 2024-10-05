@@ -97,7 +97,7 @@ jobs:
           EOF
 
       - name: Build EPUB
-        run: mdbook-epub -s true
+        run: mdbook-epub -s .
 
       - name: Rename EPUB file
         run: mv book/epub/*.epub book/epub/药娘的天空-$GITHUB_SHA.epub
